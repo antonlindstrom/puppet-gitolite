@@ -11,7 +11,8 @@ There are many other modules that installs Gitolite, why did I create a separate
 ## Usage
 
     class { 'gitolite':
-      key => 'content_of_your_public_key',
+      user => 'name_of_user',
+      key  => 'content_of_your_public_key',
     }
 
 Params can be overwritten in class `gitolite::params`.
