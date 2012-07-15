@@ -1,5 +1,7 @@
 # Gitolite
 
+[![Build Status](https://secure.travis-ci.org/antonlindstrom/puppet-gitolite.png?branch=master)](http://travis-ci.org/antonlindstrom/puppet-gitolite)
+
 This module installs Gitolite on a Ubuntu 12.04 Precise Penguin server. This might be compatible with more OS:es but 12.04 is tested.
 
 There are many other modules that installs Gitolite, why did I create a separate?
